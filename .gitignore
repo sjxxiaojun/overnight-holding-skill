@@ -1,0 +1,7 @@
+# Python env
+__pycache__/
+*.pyc
+venv/
+
+# State
+state.json
