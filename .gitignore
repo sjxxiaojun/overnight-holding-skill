@@ -1,7 +1,24 @@
 # Python env
 __pycache__/
 *.pyc
+*.pyo
 venv/
+.venv/
+env/
 
-# State
+# State & Personal Records (Strictly Desensitized)
 state.json
+*.jsonl
+*.log
+*.bak*
+
+# Local Cache & Artifacts
+kline_cache/
+*.cache
+data/kline_cache/
+experiments/data/kline_cache/
+.DS_Store
+
+# IDE & OS
+.idea/
+.vscode/
